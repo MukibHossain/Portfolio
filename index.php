@@ -386,7 +386,6 @@ GitHub
 class="btn btn-outline-light">
 Live Demo
 </a>
-
 </div>
 
 </div>
