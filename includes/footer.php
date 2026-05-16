@@ -7,7 +7,7 @@
 <div class="col-lg-4">
 
 <h3 class="footer-logo">
-Mukib.dev
+Mukib.com
 </h3>
 
 <p class="footer-text">

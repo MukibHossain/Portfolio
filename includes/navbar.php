@@ -35,7 +35,7 @@
 <div class="container">
 
 <a class="navbar-brand fw-bold" href="#">
-Mukib.dev
+Mukib
 </a>
 
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">

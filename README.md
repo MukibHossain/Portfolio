@@ -130,21 +130,25 @@ https://github.com/MukibHossain/Community-Crime-Incident-Reporter
 ## Publications
 
 ### 1.
-Visual Comfort Assessment for a Comparative Analysis of Dominant Features Using Machine Learning in Naturally Ventilated Cafeterias  
-(Status: Under Review)
+
+**Predicting Indoor Air Quality in University Laboratories Using Classification-Based Machine Learning Models**
+Published in *Proceedings of the International Conference on Current Problems in Engineering and Applied Sciences (ICCPEAS 2025)*
+DOI: [https://doi.org/10.2991/978-94-6239-668-5_93]
 
 ### 2.
-Predicting Indoor Air Quality in Naturally Ventilated University Cafeterias Using Regression-Based Machine Learning Model  
+
+**Visual Comfort Assessment for a Comparative Analysis of Dominant Features Using Machine Learning in Naturally Ventilated Cafeterias**
 (Status: Under Review)
 
 ### 3.
-Feature Ranking for Predicting Inhabitant Thermal Comfort in Urban Landscapes Using Machine Learning for Sustainable and Climate-Resilient Design  
 
-📚 Published In:  
-Proceedings of the International Conference on Current Problems in Engineering and Applied Sciences
+**Predicting Indoor Air Quality in Naturally Ventilated University Cafeterias Using Regression-Based Machine Learning Model**
+(Status: Under Review)
 
-🔗 DOI:  
-https://doi.org/10.2991/978-94-6239-668-5_93
+### 4.
+
+**Feature Ranking for Predicting Inhabitant Thermal Comfort in Urban Landscapes Using Machine Learning for Sustainable and Climate-Resilient Design**
+(Abstract)
 
 ---
 
