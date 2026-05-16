@@ -1,4 +1,5 @@
-# 🌐 Mukib.dev — CSE Student & Independent Researcher Portfolio
+````markdown
+# 🌐 Mukib.com — CSE Student & Independent Researcher Portfolio
 
 A modern full-stack portfolio website for showcasing projects, research publications, skills, achievements, and academic profile.
 
@@ -71,6 +72,7 @@ Built using PHP, MySQL, HTML, CSS, JavaScript, Bootstrap, and XAMPP.
 # 💼 Projects Included
 
 ## 1️⃣ Online Quiz System
+
 Modern quiz platform with:
 - Authentication system
 - Admin dashboard
@@ -87,12 +89,13 @@ Modern quiz platform with:
 - Chart.js
 - PHPMailer
 
-GitHub:
+GitHub:  
 https://github.com/MukibHossain/Online-Quiz-System
 
 ---
 
 ## 2️⃣ Community Crime/Incident Reporter
+
 Advanced incident reporting & visualization platform with:
 - Interactive maps
 - Heatmaps
@@ -110,7 +113,7 @@ Advanced incident reporting & visualization platform with:
 - AJAX
 - PHPMailer
 
-GitHub:
+GitHub:  
 https://github.com/MukibHossain/Community-Crime-Incident-Reporter
 
 ---
@@ -136,7 +139,12 @@ Predicting Indoor Air Quality in Naturally Ventilated University Cafeterias Usin
 
 ### 3.
 Feature Ranking for Predicting Inhabitant Thermal Comfort in Urban Landscapes Using Machine Learning for Sustainable and Climate-Resilient Design  
-(Status: Abstract Published)
+
+📚 Published In:  
+Proceedings of the International Conference on Current Problems in Engineering and Applied Sciences
+
+🔗 DOI:  
+https://doi.org/10.2991/978-94-6239-668-5_93
 
 ---
 
@@ -326,13 +334,13 @@ https://scholar.google.com/citations?user=p8k7WiEAAAAJ&hl=en&authuser=2
 
 # 📧 Contact
 
-Email:
+Email:  
 mdalhossainmukib@gmail.com
 
-Phone:
+Phone:  
 +880 1981773889
 
-Location:
+Location:  
 Dhaka, Bangladesh
 
 ---
@@ -344,3 +352,4 @@ This project is for educational, research, and portfolio purposes.
 Feel free to fork and customize for personal use.
 
 ---
+````
