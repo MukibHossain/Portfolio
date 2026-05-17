@@ -1,14 +1,14 @@
 <?php
 
-$conn = mysqli_connect(
-    "localhost",
-    "root",
-    "",
-    "portfolio_db"
-);
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "mukib_portfolio_db";
 
-if(!$conn){
-    die("Database Connection Failed");
+$conn = new mysqli($host, $user, $password, $database);
+
+if ($conn->connect_error) {
+    die("Connection Failed: " . $conn->connect_error);
 }
 
 ?>

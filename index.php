@@ -1,3 +1,8 @@
+<?php
+session_start();
+require_once 'includes/db.php';
+require_once 'includes/functions.php';
+?>
 <?php include 'includes/navbar.php'; ?>
 
 <section class="hero-section">
@@ -437,8 +442,6 @@ GitHub
 class="btn btn-outline-light">
 Live Demo
 </a>
-
-</div>
 
 </div>
 
