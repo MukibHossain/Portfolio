@@ -1,9 +1,13 @@
 <?php
 session_start();
+require_once 'includes/config.php';
 require_once 'includes/db.php';
 require_once 'includes/functions.php';
 ?>
+
 <?php include 'includes/navbar.php'; ?>
+
+<!-- HERO SECTION -->
 
 <section class="hero-section">
 
@@ -84,7 +88,7 @@ Download CV
 
 <div class="stat-box">
 
-<h3>3+</h3>
+<h3>4+</h3>
 
 <p>Research Works</p>
 
@@ -349,8 +353,6 @@ Research, AI, Machine Learning & Web Development Projects
 
 <div class="row mt-5">
 
-<!-- PROJECT 1 -->
-
 <div class="col-lg-6">
 
 <div class="project-card">
@@ -399,8 +401,6 @@ Live Demo
 </div>
 
 </div>
-
-<!-- PROJECT 2 -->
 
 <div class="col-lg-6">
 
@@ -453,9 +453,11 @@ Live Demo
 
 </div>
 
+</div>
+
 </section>
 
-<!-- RESEARCH SECTION -->
+<!-- RESEARCH -->
 
 <section class="research-section" id="research">
 
@@ -471,34 +473,46 @@ Artificial Intelligence • Computer Vision • Intelligent Systems
 
 </div>
 
-<div class="row mt-5">
+<div class="research-container">
 
-<!-- PAPER 1 -->
+<div class="featured-research-card">
 
-<div class="col-lg-4">
-
-<div class="research-card">
-
-<div class="research-status">
-Under Review
+<div class="research-badge">
+⭐ Featured Publication
 </div>
 
-<h3>
-Visual Comfort Assessment for a Comparative Analysis
-of Dominant Features Using Machine Learning
-in Naturally Ventilated Cafeterias
-</h3>
+<h2>
+Predicting Indoor Air Quality in University Laboratories Using Classification-Based Machine Learning Models
+</h2>
 
-<p>
-Machine learning based comparative analysis
-for intelligent visual comfort assessment
-in university cafeteria environments.
+<p class="research-description">
+Published in Proceedings of the International Conference on Current Problems in Engineering and Applied Sciences (ICCPEAS 2025).
+This research focuses on classification-based machine learning techniques
+for intelligent indoor air quality prediction in university laboratory environments.
 </p>
+
+<div class="research-meta">
+
+<span class="research-status published">
+Published
+</span>
+
+<span class="research-conference">
+ICCPEAS 2025
+</span>
+
+</div>
 
 <div class="research-links">
 
-<a href="#">
-<i class="fas fa-file-pdf"></i>
+<a href="https://doi.org/10.2991/978-94-6239-668-5_93"
+target="_blank"
+class="research-btn">
+DOI
+</a>
+
+<a href="#"
+class="research-btn secondary-btn">
 PDF
 </a>
 
@@ -506,33 +520,25 @@ PDF
 
 </div>
 
-</div>
-
-<!-- PAPER 2 -->
-
-<div class="col-lg-4">
+<div class="research-grid">
 
 <div class="research-card">
 
-<div class="research-status">
-Under Review
-</div>
-
 <h3>
-Predicting Indoor Air Quality in Naturally Ventilated
-University Cafeterias Using Regression-Based
-Machine Learning Model
+Visual Comfort Assessment for a Comparative Analysis of Dominant Features Using Machine Learning in Naturally Ventilated Cafeterias
 </h3>
 
 <p>
-Regression-based machine learning framework
-for indoor air quality prediction and analysis.
+Machine learning based comparative analysis for intelligent visual comfort assessment in university cafeteria environments.
 </p>
 
-<div class="research-links">
+<div class="research-footer">
+
+<span class="under-review">
+Under Review
+</span>
 
 <a href="#">
-<i class="fas fa-file-pdf"></i>
 PDF
 </a>
 
@@ -540,37 +546,49 @@ PDF
 
 </div>
 
+<div class="research-card">
+
+<h3>
+Predicting Indoor Air Quality in Naturally Ventilated University Cafeterias Using Regression-Based Machine Learning Model
+</h3>
+
+<p>
+Regression-based machine learning framework for indoor air quality prediction and analysis.
+</p>
+
+<div class="research-footer">
+
+<span class="under-review">
+Under Review
+</span>
+
+<a href="#">
+PDF
+</a>
+
 </div>
 
-<!-- PAPER 3 -->
-
-<div class="col-lg-4">
+</div>
 
 <div class="research-card">
 
-<div class="research-status">
+<h3>
+Feature Ranking for Predicting Inhabitant Thermal Comfort in Urban Landscapes Using Machine Learning for Sustainable and Climate-Resilient Design
+</h3>
+
+<p>
+Published abstract related to thermal comfort prediction and sustainable urban systems.
+</p>
+
+<div class="research-footer">
+
+<span class="book-abstract">
 Book Abstract
-</div>
-
-<h3>
-Feature Ranking for Predicting Inhabitant Thermal Comfort
-in Urban Landscapes Using Machine Learning
-for Sustainable and Climate-Resilient Design
-</h3>
-
-<p>
-Published abstract related to thermal comfort
-prediction and sustainable urban systems.
-</p>
-
-<div class="research-links">
+</span>
 
 <a href="#">
-<i class="fas fa-book"></i>
 Abstract
 </a>
-
-</div>
 
 </div>
 
@@ -583,18 +601,16 @@ Abstract
 <a href="https://scholar.google.com/citations?user=p8k7WiEAAAAJ&hl=en&authuser=2"
 target="_blank"
 class="btn btn-primary">
-
 Google Scholar
-
 </a>
 
 <a href="https://www.researchgate.net/profile/Md-Al-Hossain-Mukib?ev=hdr_xprf"
 target="_blank"
 class="btn btn-outline-light">
-
 ResearchGate
-
 </a>
+
+</div>
 
 </div>
 
