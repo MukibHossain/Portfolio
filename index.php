@@ -135,7 +135,7 @@ Download CV
 <h2>About Me</h2>
 
 <p>
-CSE Student • Independent Researcher • AI Enthusiast
+CSE Student • AI Researcher • Computer Vision Enthusiast
 </p>
 
 </div>
@@ -151,21 +151,20 @@ Who Am I?
 </h3>
 
 <p>
-A Computer Science undergraduate and independent researcher
-specializing in Artificial Intelligence, Computer Vision,
-Machine Learning, and intelligent systems.
+Computer Science undergraduate and independent researcher
+working on Artificial Intelligence, Machine Learning,
+Computer Vision, and intelligent systems.
 </p>
 
 <p>
-My work explores how AI-driven methods can address
-practical challenges through research, innovation,
-and scalable real-world implementation.
+Focused on building impactful AI-driven solutions,
+research innovation, and scalable real-world technologies.
 </p>
 
 <p>
-Future Goal:
-To become a good human being and help people
-by solving real-world problems through technology.
+Goal:
+Using technology to solve real-world problems
+and positively impact people's lives.
 </p>
 
 </div>
@@ -177,32 +176,32 @@ by solving real-world problems through technology.
 <div class="info-grid">
 
 <div class="info-box">
-<h4>University</h4>
+<h4>🎓 University</h4>
 <p>IUBAT</p>
 </div>
 
 <div class="info-box">
-<h4>Current Year</h4>
+<h4>📚 Current Year</h4>
 <p>3rd Year</p>
 </div>
 
 <div class="info-box">
-<h4>Expected Graduation</h4>
+<h4>🎯 Graduation</h4>
 <p>August 2027</p>
 </div>
 
 <div class="info-box">
-<h4>Location</h4>
+<h4>📍 Location</h4>
 <p>Dhaka, Bangladesh</p>
 </div>
 
 <div class="info-box">
-<h4>Hobbies</h4>
+<h4>🏏 Hobbies</h4>
 <p>Cricket & Football</p>
 </div>
 
 <div class="info-box">
-<h4>Language</h4>
+<h4>🌐 Languages</h4>
 <p>English & Bangla</p>
 </div>
 
@@ -453,8 +452,6 @@ Live Demo
 
 </div>
 
-</div>
-
 </section>
 
 <!-- RESEARCH -->
@@ -468,32 +465,36 @@ Live Demo
 <h2>Research & Publications</h2>
 
 <p>
-Artificial Intelligence • Computer Vision • Intelligent Systems
+Artificial Intelligence • Machine Learning • Computer Vision
 </p>
 
 </div>
 
 <div class="research-container">
 
-<div class="featured-research-card">
+<div class="research-grid">
+
+<!-- PAPER 1 - FEATURED -->
+
+<div class="research-card featured">
 
 <div class="research-badge">
 ⭐ Featured Publication
 </div>
 
-<h2>
-Predicting Indoor Air Quality in University Laboratories Using Classification-Based Machine Learning Models
-</h2>
+<h3>
+Indoor Air Quality Prediction using Machine Learning
+</h3>
 
-<p class="research-description">
-Published in Proceedings of the International Conference on Current Problems in Engineering and Applied Sciences (ICCPEAS 2025).
-This research focuses on classification-based machine learning techniques
-for intelligent indoor air quality prediction in university laboratory environments.
+<p>
+Published research on intelligent indoor air quality prediction
+using classification-based machine learning models
+for university laboratory environments.
 </p>
 
-<div class="research-meta">
+<div class="research-footer">
 
-<span class="research-status published">
+<span class="published">
 Published
 </span>
 
@@ -501,18 +502,14 @@ Published
 ICCPEAS 2025
 </span>
 
-</div>
-
 <div class="research-links">
 
 <a href="https://doi.org/10.2991/978-94-6239-668-5_93"
-target="_blank"
-class="research-btn">
+target="_blank">
 DOI
 </a>
 
-<a href="#"
-class="research-btn secondary-btn">
+<a href="#">
 PDF
 </a>
 
@@ -520,16 +517,20 @@ PDF
 
 </div>
 
-<div class="research-grid">
+</div>
+
+<!-- PAPER 2 -->
 
 <div class="research-card">
 
 <h3>
-Visual Comfort Assessment for a Comparative Analysis of Dominant Features Using Machine Learning in Naturally Ventilated Cafeterias
+Visual Comfort Assessment using ML
 </h3>
 
 <p>
-Machine learning based comparative analysis for intelligent visual comfort assessment in university cafeteria environments.
+Comparative machine learning analysis
+for intelligent visual comfort prediction
+in cafeteria environments.
 </p>
 
 <div class="research-footer">
@@ -546,14 +547,17 @@ PDF
 
 </div>
 
+<!-- PAPER 3 -->
+
 <div class="research-card">
 
 <h3>
-Predicting Indoor Air Quality in Naturally Ventilated University Cafeterias Using Regression-Based Machine Learning Model
+Indoor Air Quality Prediction using Regression ML
 </h3>
 
 <p>
-Regression-based machine learning framework for indoor air quality prediction and analysis.
+Regression-based machine learning framework
+for indoor air quality prediction and analysis.
 </p>
 
 <div class="research-footer">
@@ -570,14 +574,17 @@ PDF
 
 </div>
 
+<!-- PAPER 4 -->
+
 <div class="research-card">
 
 <h3>
-Feature Ranking for Predicting Inhabitant Thermal Comfort in Urban Landscapes Using Machine Learning for Sustainable and Climate-Resilient Design
+Thermal Comfort Feature Ranking using ML
 </h3>
 
 <p>
-Published abstract related to thermal comfort prediction and sustainable urban systems.
+Machine learning based thermal comfort analysis
+for sustainable and climate-resilient urban systems.
 </p>
 
 <div class="research-footer">
