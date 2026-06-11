@@ -1,3 +1,4 @@
+```php
 <?php
 session_start();
 require_once 'includes/db.php';
@@ -7,13 +8,13 @@ $error = "";
 
 if(isset($_POST['send_message']))
 {
-    $full_name = trim($_POST['full_name']);
+    $name = trim($_POST['full_name']);
     $email = trim($_POST['email']);
     $subject = trim($_POST['subject']);
     $message = trim($_POST['message']);
 
     if(
-        !empty($full_name) &&
+        !empty($name) &&
         !empty($email) &&
         !empty($subject) &&
         !empty($message)
@@ -22,7 +23,7 @@ if(isset($_POST['send_message']))
         $stmt = $conn->prepare("
             INSERT INTO contact_messages
             (
-                full_name,
+                name,
                 email,
                 subject,
                 message
@@ -33,7 +34,7 @@ if(isset($_POST['send_message']))
 
         $stmt->bind_param(
             "ssss",
-            $full_name,
+            $name,
             $email,
             $subject,
             $message
@@ -41,7 +42,7 @@ if(isset($_POST['send_message']))
 
         if($stmt->execute())
         {
-            $success = "Message sent successfully.";
+            $success = "Message sent successfully!";
         }
         else
         {
@@ -53,9 +54,9 @@ if(isset($_POST['send_message']))
         $error = "Please fill all fields.";
     }
 }
-?>
 
-<?php include 'includes/navbar.php'; ?>
+include 'includes/navbar.php';
+?>
 
 <section class="contact-section">
 
@@ -64,9 +65,11 @@ if(isset($_POST['send_message']))
 <div class="section-title text-center mb-5">
 
 <h2>Contact Me</h2>
+
 <p>
-Let's discuss research, collaboration, projects or opportunities.
+Let's discuss research, collaboration, projects and opportunities.
 </p>
+
 </div>
 
 <div class="row">
@@ -87,6 +90,7 @@ Let's discuss research, collaboration, projects or opportunities.
 <h5>Email</h5>
 <p>mdalhossainmukib@gmail.com</p>
 </div>
+
 </div>
 
 <div class="contact-item">
@@ -115,6 +119,19 @@ Let's discuss research, collaboration, projects or opportunities.
 
 </div>
 
+<div class="availability-badge">
+
+<h5>Available For</h5>
+
+<p>
+Research Collaboration<br>
+Internships<br>
+Academic Projects<br>
+Web Development
+</p>
+
+</div>
+
 </div>
 
 </div>
@@ -123,7 +140,7 @@ Let's discuss research, collaboration, projects or opportunities.
 
 <div class="contact-form-card">
 
-<?php if($success){ ?>
+<?php if(!empty($success)) { ?>
 
 <div class="alert alert-success">
 <?php echo $success; ?>
@@ -131,7 +148,7 @@ Let's discuss research, collaboration, projects or opportunities.
 
 <?php } ?>
 
-<?php if($error){ ?>
+<?php if(!empty($error)) { ?>
 
 <div class="alert alert-danger">
 <?php echo $error; ?>
@@ -158,7 +175,7 @@ required>
 type="email"
 name="email"
 class="form-control custom-input"
-placeholder="Email"
+placeholder="Email Address"
 required>
 
 </div>
@@ -180,7 +197,7 @@ required>
 name="message"
 rows="6"
 class="form-control custom-input"
-placeholder="Message"
+placeholder="Write your message..."
 required></textarea>
 
 </div>
@@ -207,3 +224,4 @@ Send Message
 </section>
 
 <?php include 'includes/footer.php'; ?>
+```
