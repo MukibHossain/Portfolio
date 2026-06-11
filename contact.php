@@ -87,5 +87,17 @@ Let's discuss research, collaboration, projects or opportunities.
 <h5>Email</h5>
 <p>mdalhossainmukib@gmail.com</p>
 </div>
+</div>
+
+<div class="contact-item">
+
+<div class="contact-icon">
+<i class="fas fa-phone"></i>
+</div>
+
+<div>
+<h5>Phone</h5>
+<p>+8801981773889</p>
+</div>
 
 </div>
