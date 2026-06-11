@@ -54,3 +54,13 @@ if(isset($_POST['send_message']))
     }
 }
 ?>
+
+<?php include 'includes/navbar.php'; ?>
+
+<section class="contact-section">
+
+<div class="container">
+
+<div class="section-title text-center mb-5">
+
+<h2>Contact Me</h2>
