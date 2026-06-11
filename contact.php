@@ -64,3 +64,6 @@ if(isset($_POST['send_message']))
 <div class="section-title text-center mb-5">
 
 <h2>Contact Me</h2>
+<p>
+Let's discuss research, collaboration, projects or opportunities.
+</p>
