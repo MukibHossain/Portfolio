@@ -101,3 +101,109 @@ Let's discuss research, collaboration, projects or opportunities.
 </div>
 
 </div>
+
+<div class="contact-item">
+
+<div class="contact-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+
+<div>
+<h5>Location</h5>
+<p>Dhaka, Bangladesh</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-7">
+
+<div class="contact-form-card">
+
+<?php if($success){ ?>
+
+<div class="alert alert-success">
+<?php echo $success; ?>
+</div>
+
+<?php } ?>
+
+<?php if($error){ ?>
+
+<div class="alert alert-danger">
+<?php echo $error; ?>
+</div>
+
+<?php } ?>
+
+<form method="POST">
+
+<div class="mb-3">
+
+<input
+type="text"
+name="full_name"
+class="form-control custom-input"
+placeholder="Full Name"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<input
+type="email"
+name="email"
+class="form-control custom-input"
+placeholder="Email"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<input
+type="text"
+name="subject"
+class="form-control custom-input"
+placeholder="Subject"
+required>
+
+</div>
+
+<div class="mb-3">
+
+<textarea
+name="message"
+rows="6"
+class="form-control custom-input"
+placeholder="Message"
+required></textarea>
+
+</div>
+
+<button
+type="submit"
+name="send_message"
+class="btn btn-primary">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<?php include 'includes/footer.php'; ?>
