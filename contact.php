@@ -67,3 +67,25 @@ if(isset($_POST['send_message']))
 <p>
 Let's discuss research, collaboration, projects or opportunities.
 </p>
+</div>
+
+<div class="row">
+
+<div class="col-lg-5">
+
+<div class="contact-info-card">
+
+<h3>Get In Touch</h3>
+
+<div class="contact-item">
+
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
+</div>
+
+<div>
+<h5>Email</h5>
+<p>mdalhossainmukib@gmail.com</p>
+</div>
+
+</div>
