@@ -591,12 +591,12 @@ body.light-mode .navbar-brand{
     background:#0f172a;
     border:1px solid #1e293b;
     padding:15px;
-    color:white;
+    color:#ffffff !important;
 }
 
 .custom-input:focus{
     background:#0f172a;
-    color:white;
+    color:#ffffff !important;
     border-color:#38bdf8;
     box-shadow:none;
 }
@@ -658,53 +658,33 @@ body.light-mode .footer-section{
 
 body.light-mode .custom-input{
     background:#f8fafc;
-    color:#0f172a;
+    color:#0f172a !important;
     border-color:#cbd5e1;
 }
 
-/* =====================================
-   CONTACT FORM PLACEHOLDER FIX
-===================================== */
-
-.custom-input{
-    background:#0f172a;
-    border:1px solid #1e293b;
-    padding:15px;
-    color:#ffffff !important;
-}
+/* =========================
+   FIX PLACEHOLDER DARK MODE
+========================= */
 
 .custom-input::placeholder{
-    color:#cbd5e1 !important;
+    color:#94a3b8 !important;
     opacity:1;
 }
 
 .custom-input::-webkit-input-placeholder{
-    color:#cbd5e1 !important;
+    color:#94a3b8 !important;
 }
 
 .custom-input::-moz-placeholder{
-    color:#cbd5e1 !important;
+    color:#94a3b8 !important;
     opacity:1;
 }
 
 .custom-input:-ms-input-placeholder{
-    color:#cbd5e1 !important;
+    color:#94a3b8 !important;
 }
 
-.custom-input:focus{
-    background:#0f172a;
-    color:#ffffff !important;
-    border-color:#38bdf8;
-    box-shadow:none;
-}
-
-/* LIGHT MODE */
-
-body.light-mode .custom-input{
-    background:#f8fafc;
-    color:#0f172a !important;
-    border-color:#cbd5e1;
-}
+/* LIGHT MODE PLACEHOLDER */
 
 body.light-mode .custom-input::placeholder{
     color:#64748b !important;
