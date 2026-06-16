@@ -25,7 +25,7 @@
 <!-- BACK TO TOP -->
 
 <button id="backToTop">
-<i class="fas fa-arrow-up"></i>
+    <i class="fas fa-arrow-up"></i>
 </button>
 
 <!-- NAVBAR -->
@@ -35,10 +35,14 @@
 <div class="container">
 
 <a class="navbar-brand fw-bold" href="index.php">
-Mukib
+    Mukib
 </a>
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navMenu">
 
 <span class="navbar-toggler-icon"></span>
 
@@ -49,25 +53,25 @@ Mukib
 <ul class="navbar-nav ms-auto align-items-lg-center">
 
 <li class="nav-item">
-<a class="nav-link active-link" href="#about">
+<a class="nav-link" href="index.php#about">
 About
 </a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="#skills">
+<a class="nav-link" href="index.php#skills">
 Skills
 </a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="projects.php">
+<a class="nav-link" href="index.php#projects">
 Projects
 </a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="research.php">
+<a class="nav-link" href="index.php#research">
 Research
 </a>
 </li>
