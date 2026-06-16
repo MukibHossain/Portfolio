@@ -1,7 +1,6 @@
 const roles = [
-    "CSE Student",
+    "CS Student",
     "AI Researcher",
-    "ML Enthusiast",
     "Computer Vision Researcher",
     "Web Developer"
 ];
