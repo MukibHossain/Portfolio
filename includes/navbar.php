@@ -18,6 +18,7 @@
 
 <body>
 
+
 <!-- SCROLL PROGRESS BAR -->
 
 <div id="progress-bar"></div>
