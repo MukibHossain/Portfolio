@@ -2,7 +2,6 @@ const roles = [
     "CS Student",
     "AI Researcher",
     "Computer Vision Researcher",
-    "Web Developer"
 ];
 
 let roleIndex = 0;
