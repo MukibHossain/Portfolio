@@ -264,9 +264,6 @@ Import SQL file if available.
 
 Update:
 
-```bash
-includes/config.php
-```
 
 Example:
 
