@@ -29,6 +29,29 @@ body.light-mode .navbar{
     background:rgba(255,255,255,0.9) !important;
 }
 
+body.light-mode .dropdown-menu{
+    background:white;
+    border:1px solid #cbd5e1;
+    box-shadow:0 15px 35px rgba(0,0,0,0.08);
+}
+
+body.light-mode .dropdown-item{
+    color:#0f172a;
+}
+
+body.light-mode .dropdown-item:hover{
+    background:#e0f2fe;
+    color:#0284c7;
+}
+
+body.light-mode .dropdown-menu::before{
+    background:white;
+    border-top:1px solid #cbd5e1;
+    border-left:1px solid #cbd5e1;
+}
+
+
+
 body.light-mode .nav-link{
     color:#0f172a !important;
 }
