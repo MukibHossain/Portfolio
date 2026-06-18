@@ -138,18 +138,29 @@ body.light-mode .project-image{
     z-index:9999;
 }
 
-/* NAVBAR */
+/* =========================
+   NAVBAR
+========================= */
 
 .navbar{
-    background:rgba(2,6,23,0.9) !important;
-    backdrop-filter:blur(10px);
+    background:rgba(2,6,23,0.92) !important;
+    backdrop-filter:blur(15px);
     padding:15px 0;
+    border-bottom:1px solid rgba(56,189,248,0.15);
+    box-shadow:0 5px 25px rgba(0,0,0,0.15);
 }
 
 .navbar-brand{
     font-size:28px;
-    font-weight:bold;
+    font-weight:800;
     color:white !important;
+    letter-spacing:1px;
+    transition:0.3s;
+}
+
+.navbar-brand:hover{
+    color:#38bdf8 !important;
+    transform:scale(1.05);
 }
 
 body.light-mode .navbar-brand{
@@ -161,6 +172,22 @@ body.light-mode .navbar-brand{
     margin-left:15px;
     transition:0.3s;
     position:relative;
+    font-weight:500;
+}
+
+.nav-link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    width:0;
+    height:2px;
+    background:#38bdf8;
+    transition:0.3s;
+}
+
+.nav-link:hover::after{
+    width:100%;
 }
 
 .nav-link:hover{
@@ -169,6 +196,10 @@ body.light-mode .navbar-brand{
 
 .active-link{
     color:#38bdf8 !important;
+}
+
+.active-link::after{
+    width:100%;
 }
 
 /* THEME BUTTON */
