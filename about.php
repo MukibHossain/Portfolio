@@ -51,3 +51,17 @@ I am passionate about creating impactful technologies that contribute to society
 <p>IUBAT</p>
 </div>
 
+<div class="info-box">
+<h4>📚 Current Year</h4>
+<p>3rd Year</p>
+</div>
+
+<div class="info-box">
+<h4>🎯 Graduation</h4>
+<p>August 2027</p>
+</div>
+
+<div class="info-box">
+<h4>📍 Location</h4>
+<p>Dhaka, Bangladesh</p>
+</div>
