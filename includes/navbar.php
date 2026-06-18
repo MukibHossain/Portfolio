@@ -65,3 +65,85 @@ Skills
 </a>
 </li>
 
+<li class="nav-item">
+<a class="nav-link" href="index.php#projects">
+Projects
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="index.php#research">
+Research
+</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="index.php#contact">
+Contact
+</a>
+</li>
+
+<li class="nav-item dropdown">
+
+<a class="nav-link" href="#"
+role="button"
+data-bs-toggle="dropdown"
+aria-expanded="false">
+
+<i class="fas fa-bars"></i>
+
+</a>
+
+<ul class="dropdown-menu dropdown-menu-end">
+
+<li>
+<a class="dropdown-item" href="about.php">
+About Me
+</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="skills.php">
+All Skills
+</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="projects.php">
+All Projects
+</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="research.php">
+All Research
+</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="contact.php">
+Contact Information
+</a>
+</li>
+
+</ul>
+
+</li>
+
+<li class="nav-item ms-lg-3">
+
+<button id="theme-toggle">
+
+<i class="fas fa-moon"></i>
+
+</button>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
