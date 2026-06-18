@@ -65,3 +65,25 @@ I am passionate about creating impactful technologies that contribute to society
 <h4>📍 Location</h4>
 <p>Dhaka, Bangladesh</p>
 </div>
+
+<div class="info-box">
+<h4>🏏 Hobbies</h4>
+<p>Cricket & Football</p>
+</div>
+
+<div class="info-box">
+<h4>🌐 Languages</h4>
+<p>English & Bangla</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<?php include 'includes/footer.php'; ?>
