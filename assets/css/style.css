@@ -784,3 +784,40 @@ body.light-mode .custom-input{
     border-color:#cbd5e1;
 }
 
+/* =========================
+   FIX PLACEHOLDER DARK MODE
+========================= */
+
+.custom-input::placeholder{
+    color:#94a3b8 !important;
+    opacity:1;
+}
+
+.custom-input::-webkit-input-placeholder{
+    color:#94a3b8 !important;
+}
+
+.custom-input::-moz-placeholder{
+    color:#94a3b8 !important;
+    opacity:1;
+}
+
+.custom-input:-ms-input-placeholder{
+    color:#94a3b8 !important;
+}
+
+/* LIGHT MODE PLACEHOLDER */
+
+body.light-mode .custom-input::placeholder{
+    color:#64748b !important;
+}
+
+
+.nav-item.dropdown .fa-bars{
+    transition:0.3s;
+}
+
+.nav-item.dropdown:hover .fa-bars{
+    transform:rotate(90deg);
+    color:#38bdf8;
+}
