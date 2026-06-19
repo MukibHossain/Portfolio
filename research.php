@@ -68,3 +68,82 @@ PDF
 
 <?php
 
+$query = mysqli_query(
+$conn,
+"SELECT * FROM research_papers ORDER BY id DESC"
+);
+
+while($paper = mysqli_fetch_assoc($query))
+{
+?>
+
+<div class="col-lg-6 mb-4">
+
+<div class="research-card">
+
+<h4>
+
+<?php echo $paper['title']; ?>
+
+</h4>
+
+<p>
+
+<?php echo $paper['abstract']; ?>
+
+</p>
+
+<div class="research-actions">
+
+<span class="badge bg-info">
+
+<?php echo $paper['status']; ?>
+
+</span>
+
+<?php
+if(!empty($paper['doi_link']))
+{
+?>
+
+<a
+href="<?php echo $paper['doi_link']; ?>"
+target="_blank"
+class="btn btn-sm btn-primary">
+
+DOI
+
+</a>
+
+<?php
+}
+?>
+
+<?php
+if(!empty($paper['pdf_link']))
+{
+?>
+
+<a
+href="<?php echo $paper['pdf_link']; ?>"
+target="_blank"
+class="btn btn-sm btn-outline-light">
+
+PDF
+
+</a>
+
+<?php
+}
+?>
+
+</div>
+
+</div>
+
+</div>
+
+<?php
+}
+?>
+
