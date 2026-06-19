@@ -102,3 +102,40 @@ Live Demo
 
 
 
+<!-- PROJECT 2 -->
+
+<div class="col-lg-6">
+
+<div class="project-card">
+
+<img src="assets/images/crime-reporter.png"
+class="project-real-image">
+
+<div class="project-content">
+
+<h3>
+Community Crime / Incident Reporter
+</h3>
+
+<p>
+A community-driven reporting and visualization platform
+for incidents and crime reports with real-time mapping,
+heatmaps, analytics, notifications and admin verification.
+</p>
+
+<div class="project-tags">
+
+<span>PHP</span>
+<span>MySQL</span>
+<span>Leaflet.js</span>
+<span>Chart.js</span>
+<span>Bootstrap 5</span>
+<span>Security</span>
+
+</div>
+
+<h5 class="mt-4">Key Features</h5>
+
+<ul>
+
+
