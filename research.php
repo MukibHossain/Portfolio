@@ -147,3 +147,32 @@ PDF
 }
 ?>
 
+</div>
+
+<div class="text-center mt-5">
+
+<a
+href="https://scholar.google.com/citations?user=p8k7WiEAAAAJ&hl=en"
+target="_blank"
+class="btn btn-primary">
+
+Google Scholar
+
+</a>
+
+<a
+href="https://www.researchgate.net/profile/Md-Al-Hossain-Mukib"
+target="_blank"
+class="btn btn-outline-light">
+
+ResearchGate
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<?php include 'includes/footer.php'; ?>
