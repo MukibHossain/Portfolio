@@ -138,4 +138,53 @@ heatmaps, analytics, notifications and admin verification.
 
 <ul>
 
+<li>Authentication & Verification</li>
 
+<li>Incident Reporting System</li>
+
+<li>Interactive Maps</li>
+
+<li>Heatmap Visualization</li>
+
+<li>Marker Clustering</li>
+
+<li>Admin Verification Panel</li>
+
+<li>Analytics Dashboard</li>
+
+<li>Email Notifications</li>
+
+</ul>
+
+<div class="project-buttons mt-4">
+
+<a href="https://github.com/MukibHossain/Community-Crime-Incident-Reporter"
+target="_blank"
+class="btn btn-primary">
+
+GitHub Repository
+
+</a>
+
+<a href="#"
+class="btn btn-outline-light">
+
+Live Demo
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<?php include 'includes/footer.php'; ?>
