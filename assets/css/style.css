@@ -821,3 +821,28 @@ body.light-mode .custom-input::placeholder{
     transform:rotate(90deg);
     color:#38bdf8;
 }
+
+.featured-paper{
+    border:2px solid #38bdf8;
+}
+
+.research-badge{
+    display:inline-block;
+    background:#38bdf8;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.research-actions{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.research-actions .badge{
+    padding:10px 15px;
+}
